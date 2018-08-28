@@ -1,0 +1,66 @@
+html,
+body {
+  min-width: 350px;
+  margin: 0;
+  padding: 10px 0;
+  font-family: Mojave;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 325px;
+}
+
+.logo img {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 0;
+  font-size: 2em;
+}
+
+.slogan .item {
+  text-align: center;
+}
+
+.sub {
+  padding: 30px;
+  line-height: 1.3em;
+  font-size: 2em;
+}
+
+@media (min-width:768px) {
+  .logo {
+    width: 700px;
+  }
+  .slogan {
+    flex-direction: row;
+    align-items: center;
+    font-size: 3em;
+  }
+  .slogan .item {
+    margin: 0 10px;
+  }
+  .sub {
+    padding: 30px;
+    line-height: 1.4em;
+    font-size: 2.6em;
+  }
+}
+
+@font-face {
+  font-family: Mojave;
+  src: url("./Mohave-Regular.otf") format("opentype");
+}

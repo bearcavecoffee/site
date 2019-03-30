@@ -6,6 +6,22 @@ body {
   font-family: Mojave;
 }
 
+#facebook a {
+  color: #3b5998;
+}
+
+#instagram a {
+  color: #3f729b;
+}
+
+#snapchat a {
+  color: black;
+}
+
+#twitter a {
+  color: #55acee;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -23,11 +39,31 @@ body {
   max-width: 100%;
 }
 
+.social {
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+  text-align: center;
+}
+
+.social > div {
+  margin-left: 20px;
+}
+
+.social > div:first-child {
+  margin-left: 0;
+}
+
+.social * a {
+  font-size: 2em;
+  text-decoration: none;
+}
+
 .slogan {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 30px 0;
+  padding: 10px 0;
   font-size: 2em;
 }
 
@@ -36,25 +72,30 @@ body {
 }
 
 .sub {
-  padding: 30px;
+  padding: 10px 0;
   line-height: 1.3em;
   font-size: 2em;
+  text-align: center;
 }
 
 @media (min-width:768px) {
   .logo {
     width: 700px;
   }
+  .social {
+    font-size: 2.6em;
+  }
   .slogan {
     flex-direction: row;
     align-items: center;
+    padding: 30px 0;
     font-size: 3em;
   }
   .slogan .item {
     margin: 0 10px;
   }
   .sub {
-    padding: 30px;
+    padding: 30px 0;
     line-height: 1.4em;
     font-size: 2.6em;
   }

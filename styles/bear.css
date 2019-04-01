@@ -52,6 +52,12 @@ p {
   cursor: pointer;
 }
 
+.button.disabled,
+.button.disabled:hover {
+  opacity: .5;
+  cursor: default;
+}
+
 .button a {
   display: flex;
   position: absolute;

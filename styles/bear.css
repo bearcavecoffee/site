@@ -94,6 +94,16 @@ p {
   justify-content: left;
 }
 
+.link-text {
+  text-decoration: none;
+  color: #2e4482;
+  font-weight: bold;
+}
+
+.link-text:hover {
+  text-decoration: underline;
+}
+
 .logo {
   height: 100%;
 }

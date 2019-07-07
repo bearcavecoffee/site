@@ -67,7 +67,7 @@
     margin-bottom: 0;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
     .event {
         display: flex;
         min-width: 400px;

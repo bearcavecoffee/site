@@ -14,14 +14,6 @@ body {
   color: #3f729b;
 }
 
-#snapchat a {
-  color: black;
-}
-
-#twitter a {
-  color: #55acee;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -39,6 +31,16 @@ body {
   max-width: 100%;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  font-size: .7em;
+}
+
+.separate {
+  justify-content: space-between;
+}
+
 .social {
   display: flex;
   flex-direction: row;
@@ -47,7 +49,7 @@ body {
 }
 
 .social > div {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .social > div:first-child {
@@ -72,9 +74,10 @@ body {
 }
 
 .sub {
+  width: 325px;
   padding: 10px 0;
   line-height: 1.3em;
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
 }
 
@@ -82,19 +85,28 @@ body {
   .logo {
     width: 700px;
   }
+
+  .row {
+    min-width: 600px;
+  }
+
   .social {
     font-size: 2.6em;
   }
+
   .slogan {
     flex-direction: row;
     align-items: center;
     padding: 30px 0;
     font-size: 3em;
   }
+
   .slogan .item {
     margin: 0 10px;
   }
+
   .sub {
+    width: auto;
     padding: 30px 0;
     line-height: 1.4em;
     font-size: 2.6em;

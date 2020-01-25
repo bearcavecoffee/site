@@ -24,7 +24,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 40px;
+  padding: 40px;
 }
 
 .menu-panel img {
@@ -32,8 +32,10 @@
 }
 
 .menu-section {
-  padding: 0px;
+  padding: 0 100px;
   list-style: none;
+  flex: 1;
+  max-width: 600px;
 }
 
 .menu-section li {
@@ -41,10 +43,6 @@
 }
 
 @media (min-width: 768px) {
-  .menu-content {
-    display: none;
-  }
-
   .menu-panel {
     justify-content: center;
   }
@@ -57,5 +55,11 @@
   .menu-left,
   .menu-right {
     display: none;
+  }
+
+  .menu-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }

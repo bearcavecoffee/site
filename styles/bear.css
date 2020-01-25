@@ -90,6 +90,10 @@ p {
   justify-content: space-between;
 }
 
+.header a {
+  height: 100%;
+}
+
 .left {
   justify-content: left;
 }
@@ -115,7 +119,7 @@ p {
 }
 
 .menu {
-  display: flex;
+  display: none;
   flex-direction: row;
 }
 
@@ -209,6 +213,10 @@ p {
   .header {
     height: 100px;
     padding: 23px;
+  }
+
+  .menu {
+    display: flex;
   }
 
   .menu .item {

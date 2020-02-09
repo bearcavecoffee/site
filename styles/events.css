@@ -11,6 +11,7 @@
     justify-content: space-between;
     min-width: 200px;
     min-height: 250px;
+    max-width: 500px;
     border: solid 1px #121f44;
 }
 
@@ -72,6 +73,7 @@
         display: flex;
         min-width: 400px;
         min-height: 500px;
+        max-width: auto;
     }
 
     .event-list {

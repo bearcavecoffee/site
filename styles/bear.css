@@ -94,6 +94,18 @@ p {
   height: 100%;
 }
 
+.hours-entry {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.hours-times {
+  text-align: right;
+}
+
 .left {
   justify-content: left;
 }
@@ -172,7 +184,7 @@ p {
 .social {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: left;
   width: 160px;
 }
 
@@ -180,6 +192,7 @@ p {
   text-decoration: none;
   color: white;
   font-size: 2em;
+  margin-right: 20px;
 }
 
 .text-blue {

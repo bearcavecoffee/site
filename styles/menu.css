@@ -1,3 +1,11 @@
+.menu-header {
+  height: 80vh;
+  background-image: url("../images/menu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .menu-content {
   width: 100%;
 }
@@ -32,7 +40,7 @@
 }
 
 .menu-section {
-  padding: 0 100px;
+  padding: 0 10px;
   list-style: none;
   flex: 1;
   max-width: 600px;
@@ -43,6 +51,10 @@
 }
 
 @media (min-width: 768px) {
+  .menu-section {
+    padding: 0 100px;
+  }
+
   .menu-panel {
     justify-content: center;
   }

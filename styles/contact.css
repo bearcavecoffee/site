@@ -46,6 +46,14 @@ i {
     text-align: center;
 }
 
+.mountains {
+  height: 80vh;
+  background-image: url("../images/night-mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 @media (min-width: 768px) {
     .contact-info {
         margin-bottom: 0;

@@ -1,0 +1,69 @@
+i {
+    width: 25px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 1em;
+}
+
+.contact-form-body {
+    font-size: 1.2em;
+}
+
+.contact-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 1em 1em 1em;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-form-body .contact-item {
+    margin-bottom: 20px;
+}
+
+.contact-form-body:last-child {
+    margin-top: 0;
+}
+
+.contact-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10% 25px 10%;
+}
+
+.contact-title {
+    margin: .5em 0;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mountains {
+  height: 80vh;
+  background-image: url("../images/night-mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 768px) {
+    .contact-info {
+        margin-bottom: 0;
+    }
+
+    .contact-panel {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1200px) {
+}

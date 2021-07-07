@@ -15,6 +15,11 @@
   font-size: 1.75em;
 }
 
+.menu-content h2 {
+  text-align: center;
+  font-size: 1em;
+}
+
 .menu-left,
 .menu-right {
   flex-direction: column;
